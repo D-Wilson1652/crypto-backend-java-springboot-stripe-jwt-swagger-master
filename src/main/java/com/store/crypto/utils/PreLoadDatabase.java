@@ -389,7 +389,7 @@ public class PreLoadDatabase {
             free.setStripeProductId("prod_Qpqw9q23kHN9ls");
             free.setCurrency("gbp");
             free.setListingLimit(75);
-            free.setPlanInterval("year");
+            free.setPlanInterval("2 years");
             membershipDetailsRepository.save(free);
         }
 
@@ -402,7 +402,7 @@ public class PreLoadDatabase {
             free.setStripeProductId("prod_QpqsxM3JMY2lxr");
             free.setCurrency("gbp");
             free.setListingLimit(100);
-            free.setPlanInterval("year");
+            free.setPlanInterval("3 years");
             membershipDetailsRepository.save(free);
         }
     }
